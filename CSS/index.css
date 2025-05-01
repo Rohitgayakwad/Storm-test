@@ -53,6 +53,15 @@ hr{
     width: auto;
 }
 
+.row-fluid-wraper > .row-fluid{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1158px;
+    padding: 0 15px;
+    width: auto;
+}
+
 /* Headings & Paragraphs */
 
 h1 {
@@ -233,7 +242,7 @@ a{
 }
 
 .faq_left{
-    width: 40.055248616%;
+    width: 40.425531911%;
     padding-top: 24px;
     max-height: fit-content;
 }
@@ -269,7 +278,7 @@ a{
 .accordian_text{
     cursor: pointer;
     position: relative;
-    width: 100%;
+    padding-right: 40px;
 }
 
 .accordian_text h4::after{
@@ -287,6 +296,14 @@ a{
     overflow: hidden;
   }
 
+  .text_para{
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
 /* Card Section CSS */
 
 .card_div .row-fluid-wrapper{
@@ -298,18 +315,19 @@ a{
     background-repeat: no-repeat;
 }
 
-.card_container .row-fluid-wrapper{
+.card_container  .row-fluid-wraper{
     padding-top: 30px;
-    padding-bottom: 0;
 }
 
 .card_rows{
     display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .cards{
-    flex-basis: 30.3%;
-    -webkit-flex-basis: 30.3%;
+    flex-basis: 29.96%;
+    -webkit-flex-basis: 29.96%;
     margin-right: 3%;
     margin-top: 2.43%;
     width: 100%;
@@ -371,9 +389,8 @@ a{
     margin-bottom: 18px;
 }
 
-.card_button .row-fluid-wrapper{
+.card_button .row-fluid-wraper{
     padding-top: 50px;
-    padding-bottom: 0;
 }
 
 .card_cta{
