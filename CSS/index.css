@@ -1,0 +1,381 @@
+/* Typography */
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: #737588;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  word-break: break-word;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    background-color: #e2e2e2;
+    border: none;
+    height: 1px;
+    margin: 0;
+    width: 100%;
+}
+
+.row-fluid-wrapper > .row-fluid{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1158px;
+    padding: 0 15px;
+    width: auto;
+}
+
+/* Headings & Paragraphs */
+
+h1 {
+  margin-top: 0;
+  padding: 0;
+  color: #101a29;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 56px;
+  letter-spacing: -2.24px;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #101a29;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-top: 0;
+  padding: 0;
+  color: #101a29;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  margin-top: 0;
+  padding: 0;
+  color: #101a29;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: none;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+p {
+  color: #737588;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+a{
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin-bottom: 0;
+    text-decoration: none;
+    padding: unset;
+}
+
+/* Buttons */
+
+.primary_cta a.cta_button {
+  background: #246bfd;
+  border: 1px solid #246bfd;
+  border-radius: 4px;
+  box-sizing: border-box !important;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  max-width: max-content;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 14.5px 33.5px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.primary_cta a.cta_button:hover{
+    background: #fff;
+    border: 1px solid #246bfd;
+    border-radius: 4px;
+    color: #246bfd;
+}
+
+.secondary_cta a {
+  color: #246bfd;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/* Hero Section CSS */
+
+.main_container{
+    background: #fff;
+}
+
+.hero .row-fluid-wrapper{
+    padding-top: 80px;
+    padding-bottom: 51px;
+    z-index: 1;
+    background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(250, 250, 250, 1));
+    background-position: left top;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.hero_main{
+    display: flex;
+    align-items: center;
+}
+
+.hero_left{
+    width: 48.618784527%;
+}
+
+.hero_text{
+    max-width: 465px;
+    text-align: left;
+}
+
+.button{
+    padding-top: 15px;
+}
+
+.hero_right{
+    margin-left: 2.762430939%;
+    width: 48.618784527%;
+}
+
+/* FAQ Section CSS */
+
+.faq .row-fluid-wrapper{
+    padding-top: 58px;
+    padding-bottom: 72px;
+    z-index: 1;
+}
+
+.faq_div{
+    display: flex;
+}
+
+.faq_left{
+    width: 40.055248616%;
+    padding-top: 24px;
+    max-height: fit-content;
+}
+
+.faq_left_text{
+    max-width: 372px;
+    text-align: left;
+}
+
+.faq_right{
+    width: 57.182320438000005%;
+    margin-left: 2.762430939%;
+}
+
+.accordian_group{
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 33px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.accordian_group:last-child{
+    padding-bottom: 1px;
+    margin-bottom: 0;
+    border: none;
+}
+
+.accordian_text{
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.accordian_text h4::after{
+    content: "+";
+    position: absolute;
+    right: 15px;
+  }
+
+  .accordian_header.is-open .accordian_text h4::after{
+    content: "-";
+  }
+
+  .header_content{
+    display: none;
+    overflow: hidden;
+  }
+
+/* Card Section CSS */
+
+.card_div .row-fluid-wrapper{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(250, 250, 250, 1));
+    background-position: left top;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.card_container .row-fluid-wrapper{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.card_rows{
+    display: flex;
+}
+
+.cards{
+    flex-basis: 30.3%;
+    -webkit-flex-basis: 30.3%;
+    margin-right: 3%;
+    margin-top: 2.43%;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.cards:hover{
+  box-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+    border-color: #e2e2e2;
+    border-radius: 6px;
+}
+
+.cards:hover .image{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+.card_image{
+    border-radius: 4px 4px 0 0;
+    display: block;
+    overflow: hidden;
+}
+
+.image{
+    background: url("https://3842749.fs1.hubspotusercontent-na1.net/hubfs/3842749/Rectangle%20197%20%285%29.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 225px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.image2{
+    background: url("https://3842749.fs1.hubspotusercontent-na1.net/hubfs/3842749/How%20to%20Write%20a%20Blog%20Post.png");
+    background-size: cover;
+    background-position: center center;
+    height: 225px;
+}
+
+.card_content{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 1.0);
+    border-radius: 6px;
+}
+
+.publish_date h6{
+    color: #2CD8B1;
+}
+
+.post_title{
+    margin-top: 10px;
+}
+
+.post_content{
+    margin-bottom: 18px;
+}
+
+.card_button .row-fluid-wrapper{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.card_cta{
+    text-align: center;
+}

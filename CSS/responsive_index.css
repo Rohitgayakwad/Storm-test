@@ -1,0 +1,113 @@
+@media (max-width: 767px){
+    body {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+
+    .row-fluid{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -1px;
+    }
+
+    /* Hero  section CSS */
+
+    .hero .row-fluid-wrapper{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero_main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_left{
+        width: 100%;
+    }
+
+    .hero_text{
+        max-width: 100%;
+    }
+
+    .hero_right{
+        width: 100%;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    /* FAQ section CSS */
+
+    .faq .row-fluid-wrapper{
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
+
+    .faq_div{
+        flex-direction: column;
+    }
+
+    .faq_left{
+        width: 100%;
+    }
+
+    .faq_left_text{
+        max-width: 100%;
+    }
+
+    .faq_right{
+        width: 100%;
+        margin: 0;
+    }
+
+    .cards{
+        width: 100%;
+    }
+
+    .card_rows{
+        display: block;
+    }
+
+    .card_div .row-fluid-wrapper{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .card_container .row-fluid-wrapper{
+        padding-bottom: 0;
+    }
+
+    .card_button .row-fluid-wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    h1 {
+        font-size: 50px;
+        line-height: 54px;
+        letter-spacing: -1.25px;
+    }
+
+    h2{
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: -1.25px;
+    }
+
+    .cards{
+        width: 100%;
+    }
+}
