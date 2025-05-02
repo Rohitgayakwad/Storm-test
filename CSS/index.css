@@ -284,7 +284,11 @@ a{
 .accordian_text h4::after{
     content: "+";
     position: absolute;
-    right: 15px;
+    right: 26px;
+    width: 4px;
+    font-size: 37px;
+    color: rgba(44, 216, 177, 1.0);
+    height: 20px;
   }
 
   .accordian_header.is-open .accordian_text h4::after{
